@@ -30,3 +30,7 @@ BarChart()
 # https://cran.r-project.org/web/packages/lessR/vignettes/BarChart.html
 
 # https://www.government.nl/topics/coronavirus-covid-19/tackling-new-coronavirus-in-the-netherlands/travel-and-holidays/air-travel
+
+# https://datavizcatalogue.com/methods/treemap.html
+
+# https://venngage.com/blog/amazing-infographics/

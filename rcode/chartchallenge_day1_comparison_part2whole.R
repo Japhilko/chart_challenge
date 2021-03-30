@@ -4,13 +4,28 @@
 
 
 library(treemap)
+?treemap
 
+
+# Define the paths --------------------------------------------------------
+
+data_path <- "C:/Arbeit/data/" 
 
 setwd("C:/Arbeit/data/")
 
 cdat <- read.csv("owid-covid-data.csv")
 
 
+data(GNI2014)
+
+
+
+treemap(GNI2014,
+        index=c("continent", "iso3"),
+        vSize="population",
+        vColor="GNI",
+        type="value",
+        format.legend = list(scientific = FALSE, big.mark = " "))
 
 
 # Links -------------------------------------------------------------------
