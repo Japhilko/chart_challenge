@@ -10,6 +10,16 @@
 # barchart for a comparisson
 
 library("lessR")
+library(rtweet)
+library(tmaptools)
+
+
+gc_magic <- tmaptools::geocode_OSM("Magic")
+
+
+tweets_30 <- search_tweets("Magic", n = 10000,
+                           fromDate = "202104010001")
+
 
 
 setwd("C:/Arbeit/data/")
@@ -34,3 +44,7 @@ BarChart()
 # https://datavizcatalogue.com/methods/treemap.html
 
 # https://venngage.com/blog/amazing-infographics/
+
+# https://www.datanovia.com/en/blog/easy-image-processing-in-r-using-the-magick-package/
+
+# https://freierblick.wordpress.com/2012/06/19/algorithmen-natur-und-das-schonste-gemuse-der-welt/

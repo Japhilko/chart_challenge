@@ -4,6 +4,9 @@
 
 #https://twitter.com/30DayChartChall/status/1370041826976104451/photo/1
 
+main_path <- "C:/github/chart_challenge/"
+chart_path <- paste0(main_path,"charts/")
+
 
 
 # Multilevel Model
@@ -16,7 +19,7 @@ library(ggplot2)
 library(lme4)
 library(visreg)
 
-set.seed(67)
+set.seed(321)
 groups <- floor(runif(1000, min=1, max=7))
 sex <- rep(c("Male", "Female"), times= 500)
 value1 <- runif(1000, min=1, max=10)
@@ -35,6 +38,21 @@ visreg(model
 )
 
 
+data(airquality)
+
+airquality$Heat <- cut(airquality$Temp, 3, labels=c("Cool", "Mild", "Hot"))
+fit <- lm(Ozone ~ Solar.R + Wind * Heat, data=airquality)
+
+
+visreg(fit, "Heat", by="Wind")
+
+
+setwd(chart_path)
+png("chart_challenge5_visreg.png")
+visreg(fit, "Wind", by="Heat", overlay=TRUE, partial=FALSE)
+dev.off()
+
+# Day 5 of #30DayChartChallenge. The topic today is slope. I used one of my favorite #rstats packages for visualizing regression results, the visreg package. Thanks to Patrick Breheny and Woodrow Burchett
 
 # Links -------------------------------------------------------------------
 
