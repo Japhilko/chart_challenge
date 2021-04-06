@@ -7,9 +7,13 @@
 library(waffle)
 library(extrafont)
 
+setwd(chart_path)
+png("chart_challenge2_waffle.png")
+waffle(c(win=5, draw=14, defeat=10), rows = 5, title = "")
+dev.off()
 
-waffle(c(50, 30, 15, 5), rows = 5, title = "Your basic waffle chart")
 
+# My contribution to day 2 of the #30DayChartChallenge. A hard one for me. The season result so far of the once great soccer club #fck #unzerstörbar. I used the #rstats package waffle. Thanks to @hrbrmstr and Dave Gandy.
 
 data_path <- "C:/Arbeit/data/" 
 
@@ -77,3 +81,9 @@ xdf %>%
 # https://www.r-bloggers.com/2015/03/pre-cran-waffle-update-isotype-pictograms/
 
 # https://fontawesome.com/start/confirm
+
+# https://news.cision.com/project-pictogram/r/project-pictogram-in-30-seconds,c9943878
+
+# https://www.r-bloggers.com/2017/09/infographic-style-charts-using-the-r-waffle-package/
+
+# https://www.r-bloggers.com/2015/03/pre-cran-waffle-update-isotype-pictograms/

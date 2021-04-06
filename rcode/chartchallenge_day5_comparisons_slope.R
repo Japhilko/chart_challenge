@@ -63,3 +63,5 @@ dev.off()
 # https://cran.r-project.org/web/packages/visreg/vignettes/quick-start.html
 
 # https://stats.stackexchange.com/questions/271136/plotting-multilevel-multiple-regression
+
+# https://journal.r-project.org/archive/2017/RJ-2017-046/RJ-2017-046.pdf

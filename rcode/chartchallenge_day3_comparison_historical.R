@@ -29,3 +29,11 @@ dev.off()
 # Links -------------------------------------------------------------------
 
 # https://www.statmethods.net/graphs/pie.html
+
+# https://www.bpb.de/nachschlagen/datenreport-2018/private-haushalte-einkommen-konsum-wohnen/278181/struktur-der-konsumausgaben
+
+# https://www.destatis.de/DE/Methoden/WISTA-Wirtschaft-und-Statistik/2019/02/entwicklung-lebenshaltungskosten-022019.pdf;jsessionid=44BD90D06A778353AC0BB28C086616B0.live722?__blob=publicationFile
+
+# https://www.destatis.de/DE/Methoden/WISTA-Wirtschaft-und-Statistik/2019/02/entwicklung-lebenshaltungskosten-022019.html
+
+# https://www.computerworld.com/article/3038270/create-maps-in-r-in-10-fairly-easy-steps.html
