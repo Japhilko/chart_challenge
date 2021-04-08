@@ -1,0 +1,26 @@
+---
+title: "Experimental"
+author: "Jan-Philipp Kolb"
+date: "8 4 2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 
+
+```{python}
+# Importing the matplotlib library
+import matplotlib.pyplot as plt
+# Categorical data: Country names
+countries = ['USA', 'Brazil', 'Russia', 'Spain', 'UK', 'India']
+# Integer value interms of death counts
+totalDeaths = [112596, 37312, 5971, 27136, 40597, 7449]
+# Passing the parameters to the bar function, this is the main function which creates the bar plot
+plt.bar(countries, totalDeaths)
+# Displaying the bar plot
+plt.show()
+```
+
