@@ -55,3 +55,16 @@ ggplot(flights, aes(carrier, arr_delay)) + geom_point() + geom_jitter()
 # https://blog.rstudio.com/2018/03/26/reticulate-r-interface-to-python/
 
 # https://www.python-graph-gallery.com/1-basic-barplot
+
+# https://anderfernandez.com/en/blog/how-to-use-python-in-r/
+
+# https://towardsdatascience.com/mastering-the-bar-plot-in-python-4c987b459053
+
+# https://rstudio.github.io/reticulate/articles/python_packages.html
+
+# Flights dataset
+# https://raw.githubusercontent.com/roberthryniewicz/datasets/master/airline-dataset/flights/flights.csv
+
+# https://scipython.com/
+
+# https://pythonspot.com/matplotlib-bar-chart/
