@@ -45,3 +45,13 @@ dev.off()
 
 
 # For day 11 of the #30DaysChartChallenge - circular I found the #rstats package circlize. Thanks to @jokergoo_gu for this great package.
+
+
+# Links -------------------------------------------------------------------
+
+
+
+# https://www.r-graph-gallery.com/224-basic-circular-plot.html
+# https://cran.r-project.org/web/packages/CircNNTSR/CircNNTSR.pdf
+# http://www.sthda.com/english/wiki/strip-charts-1-d-scatter-plots-r-base-graphs
+# https://cran.r-project.org/web/packages/dlnm/dlnm.pdf
