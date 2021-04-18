@@ -49,3 +49,10 @@ png(paste0(chart_path,"chart_challenge10_abstractdist.png"))
 dev.off()
 
 # My contribution to day 10 of the #30DayChartChallenge - abstract distribution. I used #rstats.
+
+
+# http://www.cookbook-r.com/Graphs/Plotting_distributions_%28ggplot2%29/
+# https://towardsdatascience.com/a-python-tutorial-on-generating-and-plotting-a-3d-guassian-distribution-8c6ec6c41d03
+# https://www.rudikershaw.com/articles/anomaly-detection
+# https://cran.r-project.org/web/packages/distr/index.html
+# https://cran.r-project.org/web/packages/BMT/index.html
