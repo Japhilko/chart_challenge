@@ -40,3 +40,6 @@ dev.off()
 # https://methodenlehre.github.io/SGSCLM-R-course/
 
 # https://wiki.openstreetmap.org/wiki/Map_features
+
+
+
