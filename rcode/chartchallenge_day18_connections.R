@@ -28,10 +28,10 @@ map <- add_osm_objects(map, obj=dat_osm$line, col = "purple")
 
 
 png(paste0(chart_path,"chart_challenge18_connections.png"))
-qtm(dat_osm,"colour")
+qtm(dat_osm,"short_name")
 dev.off()
 
-# 
+# Day 17 of the #30DayChartChallenge: connections. Metro connections of #Paris. Data from #Openstreetmap. https://github.com/Japhilko/chart_challenge #rstats 
 
 
 save(dat_osm,file="C:/Arbeit/data/metro_Paris.RData")

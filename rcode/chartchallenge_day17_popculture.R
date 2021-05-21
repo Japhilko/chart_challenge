@@ -20,6 +20,18 @@ dev.off()
 
 
 
+# Links -------------------------------------------------------------------
+
+
+# http://www.sthda.com/english/wiki/r-plot-pch-symbols-the-different-point-shapes-available-in-r
+
+# https://www.kunstschaetzen.de/blog/pop-art-kunstrichtung/
+
+# https://stackoverflow.com/questions/1154242/remove-plot-axis-values
+
+# https://www.statmethods.net/advgraphs/axes.html
+
+
 
 # Links -------------------------------------------------------------------
 
